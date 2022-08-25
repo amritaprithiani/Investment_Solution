@@ -99,14 +99,12 @@ Answer the following question: Which of the four portfolios offers the best risk
 2. Using the 60-day rolling window, the daily return data, and the S&P 500 returns, calculate the covariance for both Berkshire Hathaway Inc and Tiger Global Management LLC.
 
 3. Calculate the beta for both funds.
-
 ```python
 berkshire_60_day_rolling_beta = whale_60_day_rolling_covariance / snp_60_day_rolling_variance
 tiger_60_day_rolling_beta = tiger_60_day_rolling_covariance / snp_60_day_rolling_variance
 ```
 
 4. Calculate the average value of the 60-day rolling beta of the portfolio.
-
 ```
 print(f"Average 60-day rolling beta for berkshire Hathaway Inc is {berkshire_60_day_rolling_beta.mean():.02f}.")
 
@@ -118,9 +116,7 @@ Average 60 day rolling beta = 0.03
 ```
 
 Plot the 60-day rolling beta.
-
 ![berkshire](bhi-beta.png)
-
 ![tiger global](tgm-beta.png)
 
 ## Conclusion
@@ -128,3 +124,6 @@ Plot the 60-day rolling beta.
 Berksire Hathaway Inc performed best than reat of funds but remain less than S&P 500. It remains high in volatility and risk but less than the market. It provides best return on risk poses. Average rolling beta stayed low i.e 0.21 that means stock has low level of corelation with s&p 500 So for diversification point of view it is great stock.
 
 Tiger Global Management performance was less than rest of the funds but it remains lowest in volatility and risk yet provided best return on risk. Average rolling beta is close to zero i.e 0.03 for Tiger Global Managemet that says it is not going to be much corelated to the market.
+
+
+
