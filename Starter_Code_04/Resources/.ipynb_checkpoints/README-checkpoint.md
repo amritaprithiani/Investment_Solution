@@ -45,7 +45,7 @@ whale_daily_returns= whale_navs_df.pct_change().dropna()
 
 3. visualize the cumulative return values for the four funds and the S&P 500 over time.
 
-![Cumulative return](Starter_Code_04/Resources/cum-return.png)
+![Cumulative return](cum-return.png)
 
 ## Analyze the Volatility
 
@@ -53,11 +53,11 @@ Analyze the volatility of each of the four fund portfolios and of the S&P 500. T
 
 1. Box plot to visualize the daily return data for each of the four portfolios and for the S&P 500.
 
-![box plot](Starter_Code_04/Resources/box-plot.png)
+![box plot](box-plot.png)
 
 2. Analysing the data for just the four fund portfolios by dropping the S&P 500 column. Visualize the daily return data for just the four fund portfolios by using another box plot.
 
-![box plot](Starter_Code_04/Resources/box-plot1.png)
+![box plot](box-plot1.png)
 
 ## Analyze the Risk
 
@@ -69,11 +69,11 @@ Evaluate the risk profile of each portfolio by using the standard deviation and 
 
 3. Ploting the rolling standard deviations of the four fund portfolios and of the S&P 500 index.
 
-![std](Starter_Code_04/Resources/std-rolling.png)
+![std](std-rolling.png)
 
 4. Plot the rolling standard deviations of only the four fund portfolios.
 
-![std](Starter_Code_04/Resources/rolling-std.png)
+![std](rolling-std.png)
 
 ## Analyze the Risk-Return Profile
 
@@ -86,7 +86,7 @@ calculating risk return on all four funds.
 
 3. Visualize the Sharpe ratios for the four funds and for the S&P 500 in a bar chart.
 
-![Sharpe ratio](Starter_Code_04/Resources/sharpe-ratio.png)
+![Sharpe ratio](sharpe-ratio.png)
 
 Answer the following question: Which of the four portfolios offers the best risk-return profile? Which offers the worst?
 
@@ -99,14 +99,12 @@ Answer the following question: Which of the four portfolios offers the best risk
 2. Using the 60-day rolling window, the daily return data, and the S&P 500 returns, calculate the covariance for both Berkshire Hathaway Inc and Tiger Global Management LLC.
 
 3. Calculate the beta for both funds.
-
 ```python
 berkshire_60_day_rolling_beta = whale_60_day_rolling_covariance / snp_60_day_rolling_variance
 tiger_60_day_rolling_beta = tiger_60_day_rolling_covariance / snp_60_day_rolling_variance
 ```
 
 4. Calculate the average value of the 60-day rolling beta of the portfolio.
-
 ```
 print(f"Average 60-day rolling beta for berkshire Hathaway Inc is {berkshire_60_day_rolling_beta.mean():.02f}.")
 
@@ -118,13 +116,14 @@ Average 60 day rolling beta = 0.03
 ```
 
 Plot the 60-day rolling beta.
-
-![berkshire](Starter_Code_04/Resources/bhi-beta.png)
-
-![tiger global](Starter_Code_04/Resources/tgm-beta.png)
+![berkshire](bhi-beta.png)
+![tiger global](tgm-beta.png)
 
 ## Conclusion
 
 Berksire Hathaway Inc performed best than reat of funds but remain less than S&P 500. It remains high in volatility and risk but less than the market. It provides best return on risk poses. Average rolling beta stayed low i.e 0.21 that means stock has low level of corelation with s&p 500 So for diversification point of view it is great stock.
 
 Tiger Global Management performance was less than rest of the funds but it remains lowest in volatility and risk yet provided best return on risk. Average rolling beta is close to zero i.e 0.03 for Tiger Global Managemet that says it is not going to be much corelated to the market.
+
+
+
