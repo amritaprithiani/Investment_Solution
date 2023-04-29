@@ -125,6 +125,6 @@ Plot the 60-day rolling beta.
 
 ## Conclusion
 
-Berksire Hathaway Inc performed best than reat of funds but remain less than S&P 500. It remains high in volatility and risk but less than the market. It provides best return on risk poses. Average rolling beta stayed low i.e 0.21 that means stock has low level of corelation with s&p 500 So for diversification point of view it is great stock.
+Berkshire Hathaway Inc outperformed most funds, but still lagged behind the S&P 500. Despite being high in volatility and risk, it offered a better return on risk than the market. Its average rolling beta was low, at 0.21, indicating a low correlation with the S&P 500, making it a good choice for diversification.
 
-Tiger Global Management performance was less than rest of the funds but it remains lowest in volatility and risk yet provided best return on risk. Average rolling beta is close to zero i.e 0.03 for Tiger Global Managemet that says it is not going to be much corelated to the market.
+In contrast, Tiger Global Management underperformed compared to other funds, but had the lowest volatility and risk, while still providing the best return on risk. With an average rolling beta close to zero, at 0.03, it is not strongly correlated with the market.
