@@ -1,4 +1,4 @@
-# investment_solution
+# Investment_Solution
 
 The purpose of this repository is to evaluate four new investment options for inclusion in the client portfolios. To achieve that we need to determine the fund with the most investment potential based on key risk-management metrics: the daily returns, standard deviations, Sharpe ratios, and betas.
 
